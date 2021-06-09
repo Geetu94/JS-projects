@@ -12,11 +12,11 @@
 // Website: www.navgurukul.org
 // meraki
 
-userinput= prompt("enter any string"); // meraki
+userinput= prompt("enter any string"); // MERAKI
 alllinks= document.links
-Array.from(alllinks).forEach((link) =>{
-    if (link.text == "meraki"){
-        console.log(link);
+Array.from(alllinks).forEach((eachLink) =>{
+    if (eachLink.text == userinput){
+        console.log(eachLink);
     }
 })
 
