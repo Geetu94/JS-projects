@@ -100,16 +100,16 @@ eles = ["Preeti Thakur",
 "Neetu Kumari",
 "jhansi polishetti"]
 
+
+
+//  on starting of window we will need to start with 1 random first person and random second person
+
 window.onload= function update() {
-    var j = Math.floor(Math.random()* eles.length);
-    document.getElementById("firstPerson").innerHTML = eles[j];
-    j = Math.floor(Math.random()* eles.length);
-    document.getElementById("secondPerson").innerHTML = eles[j];
+    // write code here
 };
 
+// If you want to choose next two person click on the Agla din button(update function) and choose randomly 2 persons and assign them
+
 function update() {
-    var j = Math.floor(Math.random()* eles.length);
-    document.getElementById("firstPerson").innerHTML = eles[j];
-    j = Math.floor(Math.random()* eles.length);
-    document.getElementById("secondPerson").innerHTML = eles[j];
+    // write code here
 }

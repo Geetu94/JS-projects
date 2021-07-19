@@ -38,11 +38,7 @@ var bgColors = ["red", "pink", "yellow", "green", "white", "darkcyan", "silver",
 
 
 window.onload = function start(){
-	document.getElementById("saidso").innerHTML = quotes[0].quote;
-	document.getElementById("author").innerHTML = quotes[0].author;
-	document.getElementById("main").style.backgroundColor = bgColors[0];
-	document.getElementById("quote").style.backgroundColor = bgColors[1];
-	document.getElementById("link").href = quotes[0].link
+// write code here
 }
 
 
@@ -50,14 +46,5 @@ window.onload = function start(){
 // change the quote randomly from a list, and the colors of main and quote divisons
 
 function changeQuote() {
-	
-  var i = Math.floor(Math.random()*5);
-  var j = Math.floor(Math.random()* bgColors.length);
-  var k = Math.floor(Math.random()* bgColors.length);
-  
-  document.getElementById("saidso").innerHTML = quotes[i].quote;
-  document.getElementById("author").innerHTML = quotes[i].author;
-  document.getElementById("main").style.backgroundColor = bgColors[j];
-  document.getElementById("quote").style.backgroundColor = bgColors[k];
-  document.getElementById("link").href = quotes[i].link
+	//write code here
 }
