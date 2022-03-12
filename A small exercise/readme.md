@@ -1,1 +1,0 @@
-please understand html first and start writing js then
